@@ -1,0 +1,11 @@
+{
+	"logo": "logo.png",
+    "preload": "main.js",
+	"features": [
+		{
+		  "code": "template",
+		  "explain": "插件模板主界面",
+			"cmds":["template"]
+		}
+	]
+}
