@@ -27,3 +27,6 @@ dist-ssr
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# ignore upx
+upx
