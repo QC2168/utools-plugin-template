@@ -1,6 +1,12 @@
 {
 	"logo": "logo.png",
     "preload": "main.js",
+	"name": "your plugin ID",
+	"version": "1.0.0",
+	"pluginName": "template",
+	"description": "plugin template",
+	"author": "QC2168",
+	"homepage": "https://github.com/QC2168",
 	"features": [
 		{
 		  "code": "template",
