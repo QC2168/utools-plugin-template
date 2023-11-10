@@ -33,3 +33,25 @@ pnpm build
 ```
 
 > 执行`build`命令时，会将插件直接构建成`upx`包，开发者无需在`utools`开发者工具中二次构建 🚀
+
+### 如何启动插件
+
+在`utools`中，打开`utools`开发者工具，并新建一个项目
+
+根据您的实际情况，填写插件所需信息
+
+![20231110155724](https://raw.githubusercontent.com/QC2168/note-img/main/20231110155724.png)
+
+执行`build`指令，生成`dist`文件夹，将文件路径选中`/dist/plugin.json`
+
+![20231110155834](https://raw.githubusercontent.com/QC2168/note-img/main/20231110155834.png)
+
+![20231110155947](https://raw.githubusercontent.com/QC2168/note-img/main/20231110155947.png)
+
+启动插件，并触发插件第一个关键字
+
+![20231110160045](https://raw.githubusercontent.com/QC2168/note-img/main/20231110160045.png)
+
+![20231110160101](https://raw.githubusercontent.com/QC2168/note-img/main/20231110160101.png)
+
+![20231110160121](https://raw.githubusercontent.com/QC2168/note-img/main/20231110160121.png)
