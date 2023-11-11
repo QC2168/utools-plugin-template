@@ -9,8 +9,8 @@ export default defineConfig({
   plugins: [vue(),
   utools({
     entry: [
-      { entry: './utools/preload.js' },
-      { entry: './utools/main.js' }
+      { entry: './utools/preload.ts' },
+      { entry: './utools/main.ts' }
     ],
     pluginJsonPath: './public/plugin.json',
     hmr: true,
