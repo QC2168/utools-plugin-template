@@ -3,21 +3,24 @@
   "private": true,
   "main": "dist-electron/main/index.js",
   "version": "0.0.0",
+  "author":"QC2168",
+  "description":"Easily create utools plugins",
   "scripts": {
     "dev": "vite",
     "dev:electron": "vite --mode=electron",
     "build": "vue-tsc && vite build",
-    "build:electron": "vue-tsc && vite build --mode=electron",
+    "build:electron": "vue-tsc && vite build  --mode=electron && electron-builder",
     "preview": "vite preview"
   },
   "dependencies": {
     "@qc2168/vite-plugin-utools": "^1.2.0",
-    "electron": "^27.0.4",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@types/node": "^20.8.10",
     "@vitejs/plugin-vue": "^4.2.3",
+    "electron": "^27.0.4",
+    "electron-builder": "^24.6.4",
     "typescript": "^5.0.2",
     "utools-api-types": "^4.0.0",
     "vite": "^4.5.0",

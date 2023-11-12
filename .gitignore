@@ -33,3 +33,5 @@ upx
 
 # ginore dist electron
 dist-electron
+
+release
