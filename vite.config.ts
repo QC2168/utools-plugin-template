@@ -9,15 +9,16 @@ export default defineConfig({
   plugins: [vue(),
   utools({
     entry: [
-      { entry: './utools/preload.ts' },
-      { entry: './utools/main.ts' }
+      { entry: 'utools/preload.ts' },
+      { entry: 'utools/main.ts' }
     ],
-    pluginJsonPath: './public/plugin.json',
-    hmr: true,
+    hmr: {
+      pluginJsonPath: './plugin.json'
+    },
     upx: {
-      pluginJsonPath: './public/plugin.json',
+      pluginJsonPath: './plugin.json',
     }
-  })
+  }),
   ],
   server: {
     host: pkg.env.VITE_DEV_SERVER_HOST,
