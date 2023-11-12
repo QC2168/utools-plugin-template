@@ -1,3 +1,3 @@
 declare interface Window {
-    createWindow: ()=>void
+    createWindow: (path?:string)=>void
 }

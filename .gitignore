@@ -30,3 +30,6 @@ pnpm-lock.yaml
 
 # ignore upx
 upx
+
+# ginore dist electron
+dist-electron
