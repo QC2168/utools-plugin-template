@@ -3,8 +3,8 @@
   "private": true,
   "main": "dist-electron/main/index.js",
   "version": "0.0.0",
-  "author":"QC2168",
-  "description":"Easily create utools plugins",
+  "author": "QC2168",
+  "description": "Easily create utools plugins",
   "scripts": {
     "dev": "vite",
     "dev:electron": "vite --mode=electron",
@@ -13,7 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@qc2168/vite-plugin-utools": "^1.2.0",
+    "@qc2168/vite-plugin-utools": "^1.3.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
