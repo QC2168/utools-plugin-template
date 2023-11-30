@@ -6,7 +6,7 @@ const createWindow = async () => {
         title: 'utools插件开发模板',
         webPreferences: {
             // 载入预加载脚本
-            preload: './preload/preload.js'
+            preload: './preload.js'
         }
     }, () => {
         // 显示窗口
