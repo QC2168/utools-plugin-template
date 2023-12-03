@@ -21,8 +21,7 @@ export default defineConfig(({ command, mode }) => {
     plugins: [vue(),
     utools({
       entry: [
-        { entry: 'utools/preload.ts' },
-        { entry: 'utools/main.ts' }
+        { entry: 'utools/preload.ts' }
       ],
       hmr: {
         pluginJsonPath: './plugin.json'

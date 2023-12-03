@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import CreateWindow from './components/CreateWindow.vue'
+const chromeVersion = window.versions.chrome()
+const electronVersion = window.versions.electron()
+const nodeVersion = window.versions.node()
 </script>
 
 <template>
@@ -13,7 +15,7 @@ import CreateWindow from './components/CreateWindow.vue'
   </div>
   <h1>Hello World</h1>
   <h1>Utools Vue3 插件模板</h1>
-  <CreateWindow />
+  <p>当前插件系统基于Electron(V{{ electronVersion }})，Chrome(V{{ chromeVersion }})，Node.js(V{{ nodeVersion }})</p>
 </template>
 
 <style scoped>
@@ -23,9 +25,11 @@ import CreateWindow from './components/CreateWindow.vue'
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
