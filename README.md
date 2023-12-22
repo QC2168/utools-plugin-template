@@ -2,7 +2,7 @@
 
 基于`Vite+Vue`的`Utools`插件开发模板，让您更快的开发出一款属于自己的`Utools`插件
 
-**中文文档** | [English](https://github.com/QC2168/utools-plugin-template/README-en_US.md)
+**中文文档** | [English](https://github.com/QC2168/utools-plugin-template/blob/main/README-en_US.md)
 
 ## ✨ 特性
 
