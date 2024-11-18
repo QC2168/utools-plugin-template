@@ -22,6 +22,7 @@ export default defineConfig(({ command, mode }) => {
     utools({
       entry: [
         { entry: 'utools/preload.ts',
+          // 是否忽略打包第三方依赖
           mode: isBuild ? BuildMode.ExcludeDependencies : BuildMode.IncludeDependencies
          }
       ],
