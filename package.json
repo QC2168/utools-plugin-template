@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vite",
     "dev:electron": "vite --mode=electron",
-    "build": "vue-tsc && vite build",
+    "build": "vue-tsc && vite build && node ./scripts/build.js",
     "build:electron": "vue-tsc && vite build  --mode=electron && electron-builder",
     "preview": "vite preview"
   },

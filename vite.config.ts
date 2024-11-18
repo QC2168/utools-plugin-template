@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import utools from '@qc2168/vite-plugin-utools'
+import utools, { BuildMode } from '@qc2168/vite-plugin-utools'
 import vue from '@vitejs/plugin-vue'
 import pkg from './package.json'
 import electron from 'vite-plugin-electron'
@@ -21,7 +21,9 @@ export default defineConfig(({ command, mode }) => {
     plugins: [vue(),
     utools({
       entry: [
-        { entry: 'utools/preload.ts' }
+        { entry: 'utools/preload.ts',
+          mode: isBuild ? BuildMode.ExcludeDependencies : BuildMode.IncludeDependencies
+         }
       ],
       hmr: {
         pluginJsonPath: './plugin.json'
