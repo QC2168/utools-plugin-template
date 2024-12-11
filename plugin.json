@@ -1,6 +1,7 @@
 {
 	"logo": "logo.png",
 	"preload": "preload.js",
+	"main": "index.html",
 	"name": "your plugin ID",
 	"version": "1.0.0",
 	"pluginName": "template",
