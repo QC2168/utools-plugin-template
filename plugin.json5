@@ -1,0 +1,35 @@
+{
+	// 下列属性为插件必需属性，了解更多属性请往前 官方文档-完整配置篇
+	// https://www.u.tools/docs/developer/config.html
+    // 插件图标路径
+    logo: "logo.png",
+    // 预加载脚本
+    preload: "preload.js", 
+    // 插件入口页面
+    main: "index.html",
+    // 插件ID
+    name: "your plugin ID",
+    // 版本号
+    version: "1.0.0",
+    // 显示名称
+    pluginName: "template",
+    // 描述
+    description: "plugin template",
+    // 作者
+    author: "QC2168",
+    // 主页
+    homepage: "https://github.com/QC2168",
+    // 功能列表
+    features: [
+        {
+            // 功能代码
+            code: "template",
+            // 功能说明
+            explain: "插件模板主界面",
+            // 触发命令
+            cmds: [
+                "template"
+            ]
+        }
+    ]
+}

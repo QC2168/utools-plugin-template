@@ -26,12 +26,7 @@ export default defineConfig(({ command, mode }) => {
           mode: isBuild ? BuildMode.ExcludeDependencies : BuildMode.IncludeDependencies
          }
       ],
-      hmr: {
-        pluginJsonPath: './plugin.json'
-      },
-      upx: {
-        pluginJsonPath: './plugin.json',
-      }
+      hmr: true,
     }),
     isStartElectron && electron([
       {
