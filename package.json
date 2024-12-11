@@ -1,5 +1,6 @@
 {
   "name": "utools-plugin-template",
+  "type": "module",
   "private": true,
   "main": "dist-electron/main/index.js",
   "version": "0.0.0",
