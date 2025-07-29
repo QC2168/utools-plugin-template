@@ -13,6 +13,8 @@
 - 🦍 自动构建`upx`包
 - 🧸 构建`utools/preload`文件，自动处理插件第三方依赖（依赖脚本位于`script/build.js`）
 - 🚀 构建桌面应用（`electron` 不需要可移除）
+- biome 生物群部落
+  
 
 ## 🥩 开始使用
 
