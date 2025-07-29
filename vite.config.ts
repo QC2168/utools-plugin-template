@@ -16,7 +16,18 @@ export default defineConfig(({ command, mode }) => {
           {
             entry: 'utools/preload.ts',
             // 是否忽略打包第三方依赖
-            mode: isBuild ? BuildMode.ExcludeDependencies : BuildMode.IncludeDependencies
+            mode: isBuild ? BuildMode.ExcludeDependencies : BuildMode.IncludeDependencies,
+            // 配置输出格式为CommonJS，解决ES模块加载问题
+            vite: {
+              build: {
+                rollupOptions: {
+                  output: {
+                    format: 'cjs',
+                    entryFileNames: 'preload.js'
+                  }
+                }
+              }
+            }
           }
         ],
         hmr: true,

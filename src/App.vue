@@ -1,7 +1,8 @@
 <script setup lang="ts">
-const chromeVersion = window.versions.chrome()
-const electronVersion = window.versions.electron()
-const nodeVersion = window.versions.node()
+// 安全检查，避免在浏览器环境中出错
+const chromeVersion = window.versions?.chrome?.() || 'Unknown'
+const electronVersion = window.versions?.electron?.() || 'Unknown'
+const nodeVersion = window.versions?.node?.() || 'Unknown'
 </script>
 
 <template>
